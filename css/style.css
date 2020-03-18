@@ -1,11 +1,12 @@
 /* font-family: 'Noto Sans JP', sans-serif; */
 .header{
-    padding: 20px;
-    height: 100vh;
+    height: auto;
+    padding-top: 20px;
     background-image: url(../img/header-fon.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .d-inline-flex flex-row{
     justify-content: space-between;
@@ -44,7 +45,8 @@
     font-weight: 400;
     color: #32325d;
 }
-.header-button a{
+.header-button a,
+.advantages-item__button a{
     display: inline-block;
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
@@ -55,15 +57,136 @@
     padding: 5px 10px;
     border-radius: 2px;
 }
-.header-button span{
+.header-button span,
+.advantages-item__button span{
     display: inline-block;
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 19px;
     font-weight: 400;
     color: #32325d;
-    margin-left: 40px;
+    margin-left: 30px;
 }
-.header-button img{
+.header-button img,
+.advantages-item__button img{
     vertical-align: center;
+}
+.header-title-2{
+    margin-top: 20px;
+    padding-top: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #32325d;
+}
+.header-description-2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #32325d;
+    margin-bottom: 30px;
+}
+.about{
+    margin-bottom: 100px;
+}
+.about-item{
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: -6.691px 7.431px 20px 0px rgba(6, 6, 17, 0.2);
+        padding: 50px 50px 60px 50px;
+        margin-top: 30px;   
+}
+.about-item__image img{
+    margin-left: 30px;  
+}
+.about-item__title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #212240;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about-item__description{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #525f7f;
+    text-align: left;
+}
+.services{
+    background-image: url(../img/services-fon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.services-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 30px;
+}
+.services-subtitle{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #525f7f;
+    margin-bottom: 100px;
+}
+.services-item{
+    align-items: center;
+    margin-bottom: 120px;
+}
+.services-item__title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #212240;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.services-item__description{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #525f7f;
+    text-align: center;
+}
+.advantages-item{
+    margin-top: 50px;
+}
+.advantages-item__title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #212240;
+    margin-bottom: 25px;
+}
+.advantages-item__subtitle{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #525f7f;
+    margin-bottom: 40px;
+}
+.advantages-item__text{
+    margin-bottom: 40px;
+}
+.advantages-item__text p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #212240;
+}
+.advantages-item__text span{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #525f7f;
+}
+.advantages-image{
+    padding-top: 60px;
 }
