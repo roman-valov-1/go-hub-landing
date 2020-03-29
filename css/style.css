@@ -190,3 +190,76 @@
 .advantages-image{
     padding-top: 60px;
 }
+.finances{
+    padding-top: 100px;
+    background-image: url(../img/finances-fon.png);
+    background-position: 100% 700%;
+    background-repeat: no-repeat;
+}
+.finances__item{
+    padding-bottom: 100px;
+}
+.finances__item-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #212240;
+    margin-bottom: 25px;
+}
+.finances__item-subtitle{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #525f7f;
+    margin-bottom: 40px;
+}
+.finances__list{
+    padding-bottom: 50px;
+}
+.finances__list-title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #212240;
+    padding-bottom: 30px;
+}
+.finances__list-point{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #525f7f;
+    padding-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+}
+.finances__list-point::before{
+    content: url(../img/check.png);
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.get-start{
+    padding-top: 150px;
+    padding-bottom: 120px;
+    background-color: #fafaff;
+}
+.get-start__title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #212240;
+    padding-bottom: 20px;
+    position: relative;
+}
+.get-start__title::before{
+    content: url(../img/geometry.png);
+    position: absolute;
+    top: -80px;
+    left: 5px;
+}
+.get-start__subtitle{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #525f7f;
+}
