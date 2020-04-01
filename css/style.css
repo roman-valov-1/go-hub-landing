@@ -263,3 +263,109 @@
     font-weight: 300;
     color: #525f7f;
 }
+form{
+    padding-top: 8px;
+}
+form input{
+    border: none;
+    outline: none;
+    width: 500px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #845cff;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -6.691px 7.431px 20px 0px rgba(6, 6, 17, 0.2);
+    padding: 15px 190px 15px 20px;
+    position: relative;
+}
+form button{
+    position: absolute;
+    right: 90px;
+    top: 28px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+form button span{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #845cff;
+}
+.footer{
+    background-color: #212240;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.footer__contacts>img{
+    width: 160px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.footer__contacts a{
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #bbbbc5;
+    margin-bottom: 15px;
+}
+.footer__contacts-email{
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #bbbbc5;
+    margin-top: 30px;
+}
+.footer__contacts__icons{
+    width: 160px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer__contacts__icons>img{
+    width: auto;
+    height: auto;
+}
+.footer__links a{
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #bbbbc5;
+    margin-bottom: 25px;
+}
+.footer__links-bold a{
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d3d3d9;
+    margin-bottom: 25px;
+}
+.footer__license{
+    margin-top: 100px;
+}
+.footer__license-copyright{
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555377;
+}
+.footer__license-links{
+    display: inline-block;
+}
+.footer__license-links a{
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555377;
+    margin-right: 25px;
+}
+.footer__license-links a:last-child{
+    margin-right: 0px;
+}
