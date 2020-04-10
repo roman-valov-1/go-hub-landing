@@ -89,7 +89,7 @@
 @media (max-width: 575px){
     .header{
         padding-top: 10px;
-        background-image: url(../img/header-fon-2.png);
+        background-image: url(../img/header-fon.png);
         background-position: right top;
         background-repeat: no-repeat;
         background-size: 1000px 600px;
@@ -137,6 +137,85 @@
     }
     .header-description-2{
         font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .header{
+        height: auto;
+        padding-top: 20px;
+        background-image: url(../img/header-fon.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 1000px 600px;
+    }
+    .header img{
+        height: 45px;
+        width: 150px;
+    }
+    .header-nav a{
+        font-size: 15px;
+    }
+    .header-nav a:last-child{
+        font-size: 15px;
+    }
+    .header-title{
+        margin-top: 400px;
+        font-size: 36px;
+    }
+    .header-description{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .header-button a,
+    .advantages-item__button a{
+        font-size: 15px;
+    }
+    .header-button span,
+    .advantages-item__button span{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .header-button img,
+    .advantages-item__button img{
+        width: 30px;
+    }
+    .header-title-2{
+        padding-top: 40px;
+        font-size: 36px;
+    }
+    .header-description-2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .header{
+        height: auto;
+        padding-top: 30px;
+        background-image: url(../img/header-fon.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 1600px 950px;
+    }
+    .header-title{
+        margin-top: 700px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .header{
+        height: auto;
+        padding-top: 30px;
+        background-image: url(../img/header-fon.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 1600px 950px;
+    }
+    .header-title{
+        margin-top: 600px;
     }
 }
 
@@ -258,6 +337,31 @@
     }
 }
 
+@media (min-width: 576px) and (max-width: 767px){
+    .services{
+        padding-bottom: 50px;
+    }
+    .services-title{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .services-subtitle{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .services-item{
+        margin-bottom: 60px;
+    }
+    .services-item__title{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .services-item__description{
+        font-size: 14px;
+    }
+}
+
 .advantages-item{
     margin-top: 50px;
 }
@@ -296,8 +400,10 @@
 
 @media (max-width: 575px){
     .advantages{
+        padding-top: 30px;
+    }
+    .advantages__position{
         position: relative;
-        padding-top: 150px;
     }
     .advantages-item{
         margin-top: 50px;
@@ -327,10 +433,72 @@
         width: 300px
     }
     .advantages-image__one { 
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .advantages{
+        padding-top: 250px;
+    }
+    .advantages__position{
+        position: relative;
+    }
+    .advantages-item{
+        margin-top: 50px;
+    }
+    .advantages-item__title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .advantages-item__subtitle{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .advantages-item__text{
+        margin-bottom: 20px;
+    }
+    .advantages-item__text p{
+        font-size: 20px;
+    }
+    .advantages-item__text span{
+        font-size: 14px;
+    }
+    .advantages-image{
+        padding-top: 40px;
+    }
+    .advantages-image img{ 
+        height: 300px;
+        width: 450px
+    }
+    .advantages-image__one { 
         position: absolute;
-        left: 0px;
-        top: -650px;
-        z-index: -1;
+        left: 20px;
+        bottom: 375px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .advantages{
+        padding-top: 350px;
+    }
+    .advantages__position{
+        position: relative;
+    }
+    .advantages-image img{ 
+        height: 420px;
+        width: 600px
+    }
+    .advantages-image__one { 
+        position: absolute;
+        left: 20px;
+        bottom: 540px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .advantages-image img{ 
+        height: 325px;
+        width: 500px
     }
 }
 
@@ -413,6 +581,45 @@
     }
 }
 
+@media (min-width: 576px) and (max-width: 768px){
+    .finances{
+        padding-top: 50px;
+        background-image: none;
+    }
+    .finances__item{
+        padding-bottom: 50px;
+    }
+    .finances__item-title{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .finances__item-subtitle{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .finances__list{
+        padding-bottom: 20px;
+    }
+    .finances__list-title{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .finances__list-point{
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .finances{
+        padding-top: 100px;
+        background-image: url(../img/finances-fon.png);
+        background-position: 250px -320px;
+        background-repeat: no-repeat;
+    }
+}
+
 .get-start{
     padding-top: 150px;
     padding-bottom: 120px;
@@ -487,6 +694,9 @@ form button span{
         font-size: 18px;
         margin-bottom: 10px;
     }
+    .get-start__form{
+        position: relative;
+    }
     form{
         padding-top: 8px;
     }
@@ -495,11 +705,10 @@ form button span{
         font-size: 14px;
         border-radius: 5px;
         padding: 10px 130px 10px 10px;
-        position: relative;
     }
     form button{
         position: absolute;
-        right: 30px;
+        left: 167px; 
         top: 16px;
         border: none;
         outline: none;
@@ -507,6 +716,73 @@ form button span{
     }
     form button span{
         font-size: 13px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .get-start__title{
+        font-size: 40px;
+    }
+    .get-start__title::before{
+        top: -70px;
+    }
+    .get-start__subtitle{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    form{
+        padding-top: 8px;
+    }
+    form input{
+        width: 500px;
+        font-size: 23px;
+        padding: 15px 170px 15px 20px;
+        position: relative;
+    }
+    form button{
+        position: absolute;
+        right: 50px;
+        top: 28px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .get-start__subtitle{
+        margin-bottom: 20px;
+    }
+    form{
+        padding-top: 8px;
+    }
+    form input{
+        width: 500px;
+        font-size: 23px;
+        padding: 15px 170px 15px 20px;
+        position: relative;
+    }
+    form button{
+        position: absolute;
+        left: 350px;
+        top: 28px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .get-start__subtitle{
+        margin-bottom: 20px;
+    }
+    form{
+        padding-top: 8px;
+    }
+    form input{
+        width: 500px;
+        font-size: 23px;
+        padding: 15px 170px 15px 20px;
+        position: relative;
+    }
+    form button{
+        position: absolute;
+        left: 350px;
+        top: 28px;
     }
 }
 
@@ -570,7 +846,6 @@ form button span{
 }
 .footer__links a:hover {
     color:#fff;
-
 }
 .footer__license{
     margin-top: 100px;
